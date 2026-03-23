@@ -7,10 +7,12 @@ test('Demo Blaze POM',async ({page})=>{
 //create object//
 
 const myPage = new Login_Page(page)
-
 await myPage.navigate()
+await myPage.goToLoginPage('Admintest3321','admin')
+await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible({timeout: 6000})
+   console.log('Login successful')
 
-await myPage.goToLoginPage('Admintest3321','Admin')
+//class
 
-   
+
 })
