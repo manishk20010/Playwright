@@ -26,8 +26,8 @@ exports.Login_Page = class Login_Page{
      async goToLoginPage(username , password){
 
         await this.page.locator(this.loginLink).click()
-        await this.page.locator(this.username).fill('username')
-        await this.page.locator(this.password).fill('password')
+        await this.page.locator(this.username).fill(username)
+        await this.page.locator(this.password).fill(password)
         await this.page.locator(this.loginbtn).click()
 
      }

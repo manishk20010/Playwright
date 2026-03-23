@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6354","Demo Blaze POM","chromium","2026-03-23","passed","2026-03-23","","POMDemoblaze.spec.js","",""
+"","17962","get started link","chromium","2026-03-23","passed","2026-03-23","","example.spec.js","",""
+"","15678","has title","chromium","2026-03-23","passed","2026-03-23","","example.spec.js","",""
+"","5976","has title","chromium","2026-03-22","passed","2026-03-22","","MyScript.spec.js","",""
