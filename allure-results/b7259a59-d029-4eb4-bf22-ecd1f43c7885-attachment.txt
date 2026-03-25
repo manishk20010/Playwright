@@ -1,0 +1,5 @@
+{
+  message: 'Route GET:/api/v3/GET/inboxes/test1774377236792 not found',
+  error: 'Not Found',
+  statusCode: 404
+}
