@@ -1,0 +1,1 @@
+locator('div').filter({ hasText: /^From$/ }).nth(1)
