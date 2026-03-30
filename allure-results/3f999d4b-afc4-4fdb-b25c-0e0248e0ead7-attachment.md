@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e16]:
+  - banner [ref=e17]:
+    - generic [ref=e23]:
+      - heading "Automation Testing Practice" [level=1] [ref=e25]
+      - paragraph [ref=e27]: For Selenium, Cypress & Playwright
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - list:
+                - listitem
+  - generic [ref=e44]:
+    - heading "GUI Elements" [level=3] [ref=e45]:
+      - link "GUI Elements" [ref=e46] [cursor=pointer]:
+        - /url: https://xyz.blogspot.com/2018/09/automation-form.html
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]: "Name:"
+        - textbox "Enter Name" [ref=e50]
+        - generic [ref=e51]: "Email:"
+        - textbox "Enter EMail" [ref=e52]
+        - generic [ref=e53]: "Phone:"
+        - textbox "Enter Phone" [ref=e54]
+      - generic [ref=e55]:
+        - generic [ref=e56]: "Address:"
+        - textbox "Address:" [ref=e57]
+      - generic [ref=e58]:
+        - generic [ref=e59]: "Gender:"
+        - generic [ref=e60]:
+          - radio "Male" [ref=e61]
+          - generic [ref=e62]: Male
+        - generic [ref=e63]:
+          - radio "Female" [ref=e64]
+          - generic [ref=e65]: Female
+      - generic [ref=e66]:
+        - generic [ref=e67]: "Days:"
+        - generic [ref=e68]:
+          - checkbox "Sunday" [ref=e69]
+          - generic [ref=e70]: Sunday
+        - generic [ref=e71]:
+          - checkbox "Monday" [ref=e72]
+          - generic [ref=e73]: Monday
+        - generic [ref=e74]:
+          - checkbox "Tuesday" [ref=e75]
+          - generic [ref=e76]: Tuesday
+        - generic [ref=e77]:
+          - checkbox "Wednesday" [ref=e78]
+          - generic [ref=e79]: Wednesday
+        - generic [ref=e80]:
+          - checkbox "Thursday" [ref=e81]
+          - generic [ref=e82]: Thursday
+        - generic [ref=e83]:
+          - checkbox "Friday" [ref=e84]
+          - generic [ref=e85]: Friday
+        - generic [ref=e86]:
+          - checkbox "Saturday" [ref=e87]
+          - generic [ref=e88]: Saturday
+      - generic [ref=e89]:
+        - generic [ref=e90]: "Country:"
+        - combobox "Country:" [ref=e91]:
+          - option "United States" [selected]
+          - option "Canada"
+          - option "United Kingdom"
+          - option "Germany"
+          - option "France"
+          - option "Australia"
+          - option "Japan"
+          - option "China"
+          - option "Brazil"
+          - option "India"
+      - generic [ref=e92]:
+        - generic [ref=e93]: "Colors:"
+        - listbox "Colors:" [ref=e94]:
+          - option "Red" [ref=e95]
+          - option "Blue" [ref=e96]
+          - option "Green" [ref=e97]
+          - option "Yellow" [ref=e98]
+          - option "Red" [ref=e99]
+          - option "White" [ref=e100]
+          - option "Green" [ref=e101]
+      - generic [ref=e102]:
+        - generic [ref=e103]: "Sorted List:"
+        - listbox "Sorted List:" [ref=e104]:
+          - option "Cat" [ref=e105]
+          - option "Cheetah" [ref=e106]
+          - option "Deer" [ref=e107]
+          - option "Dog" [ref=e108]
+          - option "Elephant" [ref=e109]
+          - option "Fox" [ref=e110]
+          - option "Giraffe" [ref=e111]
+          - option "Lion" [ref=e112]
+          - option "Rabbit" [ref=e113]
+          - option "Zebra" [ref=e114]
+```
