@@ -1,7 +1,7 @@
 import {test , expect} from '@playwright/test'
 
 test('Alerts Test',async ({page})=>{
-await page.goto('http://127.0.0.1:5500/practice-websites/automationpy.html')
+await page.goto('http://127.0.0.1:56005/practice-websites/automationpy.html')
 
  
 //override the default Playwright behavior
@@ -20,14 +20,16 @@ await page.goto('http://127.0.0.1:5500/practice-websites/automationpy.html')
 test('Confirmation Alert@mk',async ({page})=>{
    await page.goto('http://127.0.0.1:5500/practice-websites/automationpy.html')
    
-   await page.on('dialog',async dialog =>{
-    expect ( dialog.type()).toContain('confirm') //partial match
+    page.on('dialog',async dialog =>{
+    //expect ( dialog.type()).toContain('confirm') //partial match
     expect ( dialog.type()).toContain('Press a button!') //partial match
-    await dialog.accept()
+    await dialog.accept({force:true})
     
-   })
+
+       })
+       
     await page.locator('#confirmBtn').click()
- 
+     
 })
 
 

@@ -1,6 +1,5 @@
 // 1. Reverse a String
 
-const { cpSync } = require("node:fs")
 
 function reverseString(str) {
     const result = str.split('').reverse().join('')

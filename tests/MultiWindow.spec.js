@@ -21,7 +21,7 @@ test('Child Window',async({browser})=>{
 
          page.bringToFront()
          await expect(page).toHaveTitle('OrangeHRM') //1st page
-         childPage.bringToFront()
+       //  childPage.bringToFront()
          await page.pause()         
 
           

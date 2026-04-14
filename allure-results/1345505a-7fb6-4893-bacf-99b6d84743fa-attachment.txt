@@ -1,0 +1,1 @@
+locator('nav div a.navbar-brand.nav-logo')

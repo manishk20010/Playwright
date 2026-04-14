@@ -1,0 +1,592 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - text: OrangeHRM 8.0 is here! See what's new -
+      - link "Learn more" [ref=e4] [cursor=pointer]:
+        - /url: https://www.orangehrm.com/resources/blog/ten-real-hr-problems-solved-with-orangehrm-eight-zero
+    - button "×" [ref=e6] [cursor=pointer]
+  - navigation [ref=e7]:
+    - generic [ref=e8]:
+      - link "OrangeHRM Logo" [ref=e9] [cursor=pointer]:
+        - /url: .
+        - img "OrangeHRM Logo"
+      - generic [ref=e10]:
+        - list [ref=e11]:
+          - listitem
+          - listitem [ref=e12]:
+            - link "Solutions" [ref=e13] [cursor=pointer]:
+              - /url: /#
+          - listitem [ref=e14]:
+            - link "Why OrangeHRM" [ref=e15] [cursor=pointer]:
+              - /url: /#
+          - listitem [ref=e16]:
+            - link "Resources" [ref=e17] [cursor=pointer]:
+              - /url: /#
+          - listitem [ref=e18]:
+            - link "Company" [ref=e19] [cursor=pointer]:
+              - /url: /#
+          - listitem [ref=e20]:
+            - link "Pricing" [ref=e21] [cursor=pointer]:
+              - /url: /pricing
+        - text:            
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - button "Language" [ref=e24] [cursor=pointer]:
+              - img "United States" [ref=e25]
+              - generic [ref=e26]: 
+          - listitem [ref=e27]:
+            - link "Book a Free Demo" [ref=e28] [cursor=pointer]:
+              - /url: /book-a-free-demo
+              - button "Book a Free Demo" [ref=e29]
+          - listitem [ref=e30]:
+            - link "Contact Sales" [ref=e31] [cursor=pointer]:
+              - /url: /contact-sales
+              - button "Contact Sales" [ref=e32]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - generic [ref=e40]:
+          - heading "Streamline All Your HR Needs on One Intuitive Platform" [level=1] [ref=e42]:
+            - text: Streamline All Your HR Needs on One
+            - text: Intuitive Platform
+          - paragraph [ref=e44]: OrangeHRM is a flexible, all in one HR software that helps businesses of all sizes manage their people, streamline HR processes, and drive growth. From employee management to recruitment and onboarding, performance management and leave management, our HRMS platform makes it easier to keep your workforce productive and engaged.
+          - generic [ref=e47]:
+            - group [ref=e48]:
+              - textbox "Your email address" [ref=e51]
+            - button "Start Your 30 Day Free Trial" [ref=e53] [cursor=pointer]
+        - generic [ref=e56]:
+          - generic:
+            - img "badges"
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - img "badges"
+            - generic [ref=e59]:
+              - img "badges"
+            - generic [ref=e60]:
+              - img "badges"
+            - generic [ref=e61]:
+              - img "badges"
+          - generic:
+            - img "badges"
+      - generic [ref=e65]:
+        - img "OHRM main slider img"
+      - generic [ref=e67]:
+        - heading "Join Over 5 Million Users Who Trust OrangeHRM as Their Trusted HR Software Partner" [level=5] [ref=e71]
+        - generic [ref=e78]:
+          - generic [ref=e82]:
+            - img "ADRA Logo"
+          - generic [ref=e86]:
+            - img "CFI logo"
+          - generic [ref=e90]:
+            - img "Colten Care Logo"
+          - generic [ref=e94]:
+            - img "Dnata logo"
+          - generic [ref=e98]:
+            - img "DyStar"
+          - generic [ref=e102]:
+            - img "Hawkeye Logo"
+          - generic [ref=e106]:
+            - img "Helen Hayes Logo"
+          - generic [ref=e110]:
+            - img "Puma Logo"
+          - generic [ref=e114]:
+            - img "rewe fat east"
+          - generic [ref=e118]:
+            - img "Toyota Logo"
+          - generic [ref=e122]:
+            - img "Rutgers University Emblem"
+          - generic [ref=e126]:
+            - img "Sandals"
+          - generic [ref=e130]:
+            - img "Food for the Hungry"
+          - generic [ref=e134]:
+            - img "stanley black"
+          - generic [ref=e138]:
+            - img "Projects Abroad"
+          - generic [ref=e142]:
+            - img "Chelton"
+          - generic [ref=e146]:
+            - img "GALfoundation"
+          - generic [ref=e150]:
+            - img "TCL"
+          - generic [ref=e154]:
+            - img "toluna logo"
+          - generic [ref=e158]:
+            - img "ADRA Logo"
+          - generic [ref=e162]:
+            - img "CFI logo"
+          - generic [ref=e166]:
+            - img "Colten Care Logo"
+          - generic [ref=e170]:
+            - img "Dnata logo"
+          - generic [ref=e174]:
+            - img "DyStar"
+          - generic [ref=e178]:
+            - img "Hawkeye Logo"
+          - generic [ref=e182]:
+            - img "Helen Hayes Logo"
+          - generic [ref=e186]:
+            - img "Puma Logo"
+          - generic [ref=e190]:
+            - img "rewe fat east"
+          - generic [ref=e194]:
+            - img "Toyota Logo"
+          - generic [ref=e198]:
+            - img "Rutgers University Emblem"
+          - generic [ref=e202]:
+            - img "Sandals"
+          - generic [ref=e206]:
+            - img "Food for the Hungry"
+          - generic [ref=e210]:
+            - img "stanley black"
+          - generic [ref=e214]:
+            - img "Projects Abroad"
+          - generic [ref=e218]:
+            - img "Chelton"
+          - generic [ref=e222]:
+            - img "GALfoundation"
+          - generic [ref=e226]:
+            - img "TCL"
+          - generic [ref=e230]:
+            - img "toluna logo"
+          - generic [ref=e234]:
+            - img "ADRA Logo"
+      - generic [ref=e235]:
+        - heading "Consolidate Your HR Processes into One Smart Platform" [level=2] [ref=e240]:
+          - text: Consolidate Your HR Processes
+          - text: into One Smart Platform
+        - generic [ref=e243]:
+          - generic:
+            - generic:
+              - generic [ref=e245]:
+                - heading "People Management" [level=3] [ref=e247]
+                - paragraph [ref=e249]: Managing the daily demands of HR, from resolving immediate challenges to overseeing extensive paperwork, can be significant. By implementing a strong people management strategy backed by HR software to automate your processes, you can equip your team with the necessary resources to thrive.
+                - list [ref=e251]:
+                  - link "HR Administration" [ref=e252] [cursor=pointer]:
+                    - /url: /solutions/people-management/hr-administration
+                    - listitem [ref=e253]: HR Administration
+                  - separator [ref=e254]
+                  - link "Employee Management" [ref=e255] [cursor=pointer]:
+                    - /url: /solutions/people-management/employee-management
+                    - listitem [ref=e256]: Employee Management
+                  - separator [ref=e257]
+                  - link "Reporting and Analytics" [ref=e258] [cursor=pointer]:
+                    - /url: /solutions/people-management/reporting-and-analytics
+                    - listitem [ref=e259]: Reporting and Analytics
+                  - separator [ref=e260]
+                  - link "Mobile App" [ref=e261] [cursor=pointer]:
+                    - /url: /solutions/people-management/orangehrm-mobile-app
+                    - listitem [ref=e262]: Mobile App
+              - generic:
+                - button "HR Administration":
+                  - img "HR Administration"
+        - generic [ref=e265]:
+          - generic:
+            - generic:
+              - generic [ref=e267]:
+                - heading "Talent Management" [level=3] [ref=e269]
+                - paragraph [ref=e271]: A thriving company culture depends on a recruitment team that ensures every hire aligns with its values and vision. Beyond creating a positive candidate experience, they require a comprehensive HRMS that integrates a robust applicant tracking system and an automated, world-class onboarding experience to ensure your new employees are ready before they even step through the door.
+                - list [ref=e273]:
+                  - link "Recruitment" [ref=e274] [cursor=pointer]:
+                    - /url: /solutions/talent-management/recruitment
+                    - listitem [ref=e275]: Recruitment
+                  - separator [ref=e276]
+                  - link "Onboarding" [ref=e277] [cursor=pointer]:
+                    - /url: /solutions/talent-management/onboarding
+                    - listitem [ref=e278]: Onboarding
+                  - separator [ref=e279]
+                  - link "Request Desk" [ref=e280] [cursor=pointer]:
+                    - /url: /solutions/talent-management/request-desk
+                    - listitem [ref=e281]: Request Desk
+              - generic:
+                - button "Recruitment":
+                  - img "Recruitment"
+        - generic [ref=e284]:
+          - generic:
+            - generic:
+              - generic [ref=e286]:
+                - heading "Compensation" [level=3] [ref=e288]
+                - paragraph [ref=e290]: Eliminate the complexity of manually managing leave management, time and attendance tracking, and employee scheduling. With a comprehensive HRMS, you can automate these processes, reduce manual errors, and ensure that all your data flows effortlessly across your HR department. This lets you focus on strategic HR initiatives and building a more productive workplace, instead of getting bogged down by administrative tasks.
+                - list [ref=e292]:
+                  - link "Leave Management" [ref=e293] [cursor=pointer]:
+                    - /url: /solutions/compensation/leave-management
+                    - listitem [ref=e294]: Leave Management
+                  - separator [ref=e295]
+                  - link "Time and Attendance" [ref=e296] [cursor=pointer]:
+                    - /url: /solutions/compensation/time-and-attendance
+                    - listitem [ref=e297]: Time and Attendance
+                  - separator [ref=e298]
+                  - link "Roster" [ref=e299] [cursor=pointer]:
+                    - /url: /solutions/compensation/roster
+                    - listitem [ref=e300]: Roster
+              - generic:
+                - button "Clock in Clock Out":
+                  - img "Clock in Clock Out"
+        - generic [ref=e303]:
+          - generic:
+            - generic:
+              - generic [ref=e305]:
+                - heading "Culture" [level=3] [ref=e307]
+                - paragraph [ref=e309]: Your commitment to developing your people fosters a thriving company culture where employees feel valued and more engaged. By leveraging HR software to actively manage performance, support career development, and provide effective training, you empower your team to grow, enabling you to recognize challenges and celebrate successes.
+                - list [ref=e311]:
+                  - link "Performance Management" [ref=e312] [cursor=pointer]:
+                    - /url: /solutions/culture/performance-management
+                    - listitem [ref=e313]: Performance Management
+                  - separator [ref=e314]
+                  - link "Career Development" [ref=e315] [cursor=pointer]:
+                    - /url: /solutions/culture/career-development
+                    - listitem [ref=e316]: Career Development
+                  - separator [ref=e317]
+                  - link "Training" [ref=e318] [cursor=pointer]:
+                    - /url: /solutions/culture/training
+                    - listitem [ref=e319]: Training
+                  - separator [ref=e320]
+                  - link "Surveys" [ref=e321] [cursor=pointer]:
+                    - /url: /solutions/culture/surveys
+                    - listitem [ref=e322]: Surveys
+                  - separator [ref=e323]
+                  - link "Employee Voice" [ref=e324] [cursor=pointer]:
+                    - /url: /solutions/culture/employee-voice
+                    - listitem [ref=e325]: Employee Voice
+                  - separator [ref=e326]
+                  - link "Discipline" [ref=e327] [cursor=pointer]:
+                    - /url: /solutions/culture/discipline
+                    - listitem [ref=e328]: Discipline
+              - generic:
+                - button "Career Development":
+                  - img "Career Development"
+    - generic [ref=e329]:
+      - heading "White Glove Implementation and Exceptional Support" [level=2] [ref=e334]:
+        - text: White Glove Implementation and
+        - text: Exceptional Support
+      - generic [ref=e336]:
+        - generic [ref=e338]:
+          - generic [ref=e339]:
+            - img "hosting icon"
+          - heading "Flexible hosting options to suit your needs!" [level=5] [ref=e341]
+          - link "Learn More" [ref=e343] [cursor=pointer]:
+            - /url: /why-orangehrm/on-premise-hosting
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - img "support icon"
+          - heading "Ongoing support wherever you are located!" [level=5] [ref=e348]
+          - link "Learn More" [ref=e350] [cursor=pointer]:
+            - /url: /company/contact
+    - generic [ref=e355]:
+      - heading "Connect OrangeHRM to Your Existing Tech Stack" [level=2] [ref=e357]
+      - generic [ref=e358]:
+        - paragraph [ref=e359]: Let OrangeHRM serve as the hub of your HR technology ecosystem. Connect your existing tech stack to OrangeHRM to streamline processes, improve accuracy, and scale rapidly.
+        - link "Explore Connectors" [ref=e361] [cursor=pointer]:
+          - /url: /solutions/connectors
+    - generic [ref=e365]:
+      - heading "What Our Clients Say" [level=2] [ref=e369]
+      - generic [ref=e373]:
+        - generic [ref=e376]:
+          - generic:
+            - img "Maria Glezos"
+          - paragraph [ref=e378]: OrangeHRM is a project we're taking very seriously as it's a very exciting and important change for us to move to this system. I can see that OrangeHRM takes their work in transitioning clients as seriously as we are taking in making the transition to your application. As mentioned, we'd considered ADP and a few other applications in an evaluation process and thanks to your good work and patience and in the apparent friendly user interface and customizeability of your system, the decision became very easy to make the change.
+          - heading "Maria Glezos" [level=5] [ref=e379]
+          - text: Director of HR, Benefits & Administration
+        - generic [ref=e382]:
+          - generic:
+            - img "S. Callan"
+          - paragraph [ref=e384]: OrangeHRM has provided our small non-profit with the ability to seamlessly onboard, train and maintain employee information in our field, without using multiple spreadsheets. This customizable system is easy to learn and utilize, and the customer service team far surpasses others software systems currently used. OrangeHRM is highly recommended by Affinity.
+          - heading "Stephanie Callan" [level=5] [ref=e385]
+          - text: Director of Administration
+        - generic [ref=e388]:
+          - generic:
+            - img "GuillermoCogorno"
+          - paragraph [ref=e390]: We chose OrangeHRM due to the flexibility they offer, especially within our industry. OrangeHRM offers a flexible solution, and people. They understood what challenges we faced, and offered a solution that could fit with our organization, and not the other way round, which many other suppliers do. OrangeHRM has made it easy for us to choose what modules we felt were needed at specific times. We are really excited to watch how we progress even more, and see what the future holds.
+          - heading "Guillermo Cogorno" [level=5] [ref=e391]
+          - text: HR Director
+        - generic [ref=e394]:
+          - generic:
+            - img "Dawn Lambert"
+          - paragraph [ref=e396]: There has been a significant improvement in our ability to track important information regarding leave ever since we started using this system in 2022. I have found the system to be user friendly both as an Administrator and end user. It gives our team a sense of ownership in the management of their leave and personal details as they can track leave and update their personal details.
+          - heading "Dawn Lambert" [level=5] [ref=e397]
+          - text: Human Resource and Training Manager
+        - generic [ref=e400]:
+          - generic:
+            - img "ORange"
+          - paragraph [ref=e402]: OrangeHRM has everything a HR department needs to function to its fullest potential in just one system. Representatives of OrangeHRM are willing to spend time, build things up and provide demonstrations before commitment, which were amazing and very informative. My experience with OrangeHRM is certainly positive and beneficial for my work!
+          - heading "Andreas Tziarras" [level=5] [ref=e403]
+          - text: Managing Director
+        - generic [ref=e406]:
+          - generic:
+            - img "Elementa Logo"
+          - paragraph [ref=e408]: Implementing OrangeHRM has been a game-changer for our organization. As a remote company with a dynamic workforce, we needed a robust HR management system that could streamline our HR processes and improve overall efficiency. OrangeHRM has significantly enhanced our HR operations, allowing us to focus more on strategic initiatives and less on administrative tasks. Its comprehensive features, ease of use, and excellent support make it an indispensable tool for any organization looking to optimize its HR processes. We highly recommend OrangeHRM to any company seeking a reliable and scalable HR management solution.
+          - heading "Earl Dela Torre" [level=5] [ref=e409]
+          - text: HR Manager
+        - generic [ref=e412]:
+          - generic:
+            - img "wtfast logo"
+          - paragraph [ref=e414]: OrangeHRM has significantly streamlined HR administration for our small software company. As the HR manager, I've found the Leave Absence feature particularly useful. Its user-friendly interface allows employees to easily submit leave requests, and the automatic system updates eliminate the need for manual paperwork and follow-ups.
+          - heading "Hassaan Ahmad" [level=5] [ref=e415]
+          - text: CFO
+        - generic [ref=e418]:
+          - generic:
+            - img "sato"
+          - paragraph [ref=e420]: We needed a system able to capture this diversity, highly customizable and easy to use at the same time, a unique combination of complexity and simplicity. We were also looking for a solution that would give us flexibility to have a gradual, step-by-step implementation process, allowing us to move at our own pace. And we found all of that in OrangeHRM!
+          - heading "Irina Rogozhina" [level=5] [ref=e421]
+          - text: European HR Generalist
+        - generic [ref=e424]:
+          - generic:
+            - img "Fabian Di Gregorio"
+          - paragraph [ref=e426]: Some years ago, we embarked on a detailed and comprehensive analysis of the Market to identify an HR Management system that would fully meet our Organizational requirements and allow us to prioritize and streamline our business processes. We recognized OrangeHRM as being the best solution for us. The key factors in our decision-making process were the functionality offered by the product, a user-friendly and intuitive interface, language translation and of course pricing.
+          - heading "Fabian Di Gregorio" [level=5] [ref=e427]
+          - text: Finance/Human Resources Regional Manager
+        - generic [ref=e430]:
+          - generic:
+            - img "Maria Glezos"
+          - paragraph [ref=e432]: OrangeHRM is a project we're taking very seriously as it's a very exciting and important change for us to move to this system. I can see that OrangeHRM takes their work in transitioning clients as seriously as we are taking in making the transition to your application. As mentioned, we'd considered ADP and a few other applications in an evaluation process and thanks to your good work and patience and in the apparent friendly user interface and customizeability of your system, the decision became very easy to make the change.
+          - heading "Maria Glezos" [level=5] [ref=e433]
+          - text: Director of HR, Benefits & Administration
+        - generic [ref=e436]:
+          - generic:
+            - img "S. Callan"
+          - paragraph [ref=e438]: OrangeHRM has provided our small non-profit with the ability to seamlessly onboard, train and maintain employee information in our field, without using multiple spreadsheets. This customizable system is easy to learn and utilize, and the customer service team far surpasses others software systems currently used. OrangeHRM is highly recommended by Affinity.
+          - heading "Stephanie Callan" [level=5] [ref=e439]
+          - text: Director of Administration
+        - generic [ref=e442]:
+          - generic:
+            - img "GuillermoCogorno"
+          - paragraph [ref=e444]: We chose OrangeHRM due to the flexibility they offer, especially within our industry. OrangeHRM offers a flexible solution, and people. They understood what challenges we faced, and offered a solution that could fit with our organization, and not the other way round, which many other suppliers do. OrangeHRM has made it easy for us to choose what modules we felt were needed at specific times. We are really excited to watch how we progress even more, and see what the future holds.
+          - heading "Guillermo Cogorno" [level=5] [ref=e445]
+          - text: HR Director
+        - generic [ref=e448]:
+          - generic:
+            - img "Dawn Lambert"
+          - paragraph [ref=e450]: There has been a significant improvement in our ability to track important information regarding leave ever since we started using this system in 2022. I have found the system to be user friendly both as an Administrator and end user. It gives our team a sense of ownership in the management of their leave and personal details as they can track leave and update their personal details.
+          - heading "Dawn Lambert" [level=5] [ref=e451]
+          - text: Human Resource and Training Manager
+        - generic [ref=e454]:
+          - generic:
+            - img "ORange"
+          - paragraph [ref=e456]: OrangeHRM has everything a HR department needs to function to its fullest potential in just one system. Representatives of OrangeHRM are willing to spend time, build things up and provide demonstrations before commitment, which were amazing and very informative. My experience with OrangeHRM is certainly positive and beneficial for my work!
+          - heading "Andreas Tziarras" [level=5] [ref=e457]
+          - text: Managing Director
+        - generic [ref=e460]:
+          - generic:
+            - img "Elementa Logo"
+          - paragraph [ref=e462]: Implementing OrangeHRM has been a game-changer for our organization. As a remote company with a dynamic workforce, we needed a robust HR management system that could streamline our HR processes and improve overall efficiency. OrangeHRM has significantly enhanced our HR operations, allowing us to focus more on strategic initiatives and less on administrative tasks. Its comprehensive features, ease of use, and excellent support make it an indispensable tool for any organization looking to optimize its HR processes. We highly recommend OrangeHRM to any company seeking a reliable and scalable HR management solution.
+          - heading "Earl Dela Torre" [level=5] [ref=e463]
+          - text: HR Manager
+        - generic [ref=e466]:
+          - generic:
+            - img "wtfast logo"
+          - paragraph [ref=e468]: OrangeHRM has significantly streamlined HR administration for our small software company. As the HR manager, I've found the Leave Absence feature particularly useful. Its user-friendly interface allows employees to easily submit leave requests, and the automatic system updates eliminate the need for manual paperwork and follow-ups.
+          - heading "Hassaan Ahmad" [level=5] [ref=e469]
+          - text: CFO
+        - generic [ref=e472]:
+          - generic:
+            - img "sato"
+          - paragraph [ref=e474]: We needed a system able to capture this diversity, highly customizable and easy to use at the same time, a unique combination of complexity and simplicity. We were also looking for a solution that would give us flexibility to have a gradual, step-by-step implementation process, allowing us to move at our own pace. And we found all of that in OrangeHRM!
+          - heading "Irina Rogozhina" [level=5] [ref=e475]
+          - text: European HR Generalist
+        - generic [ref=e478]:
+          - generic:
+            - img "Fabian Di Gregorio"
+          - paragraph [ref=e480]: Some years ago, we embarked on a detailed and comprehensive analysis of the Market to identify an HR Management system that would fully meet our Organizational requirements and allow us to prioritize and streamline our business processes. We recognized OrangeHRM as being the best solution for us. The key factors in our decision-making process were the functionality offered by the product, a user-friendly and intuitive interface, language translation and of course pricing.
+          - heading "Fabian Di Gregorio" [level=5] [ref=e481]
+          - text: Finance/Human Resources Regional Manager
+        - generic [ref=e484]:
+          - generic:
+            - img "Maria Glezos"
+          - paragraph [ref=e486]: OrangeHRM is a project we're taking very seriously as it's a very exciting and important change for us to move to this system. I can see that OrangeHRM takes their work in transitioning clients as seriously as we are taking in making the transition to your application. As mentioned, we'd considered ADP and a few other applications in an evaluation process and thanks to your good work and patience and in the apparent friendly user interface and customizeability of your system, the decision became very easy to make the change.
+          - heading "Maria Glezos" [level=5] [ref=e487]
+          - text: Director of HR, Benefits & Administration
+    - generic [ref=e488]:
+      - generic [ref=e489]:
+        - generic [ref=e492]:
+          - heading "Frequently Asked Questions" [level=2] [ref=e493]
+          - paragraph [ref=e495]: Everything you need to know about OrangeHRM
+        - generic [ref=e499]:
+          - generic [ref=e500]:
+            - heading "Does OrangeHRM offer a free version?" [level=2] [ref=e501]:
+              - button "Does OrangeHRM offer a free version?" [expanded] [ref=e502] [cursor=pointer]
+            - generic "Does OrangeHRM offer a free version?" [ref=e503]:
+              - generic [ref=e504]: Yes! The OrangeHRM Starter is our free, open-source version designed for small businesses looking to automate HR tasks like employee management, leave tracking, and reporting.
+          - heading "Is there a free trial?" [level=2] [ref=e506]:
+            - button "Is there a free trial?" [ref=e507] [cursor=pointer]
+          - heading "What is the difference between the OrangeHRM Starter and Advanced?" [level=2] [ref=e509]:
+            - button "What is the difference between the OrangeHRM Starter and Advanced?" [ref=e510] [cursor=pointer]
+          - heading "Is OrangeHRM cloud-based or on-premise?" [level=2] [ref=e512]:
+            - button "Is OrangeHRM cloud-based or on-premise?" [ref=e513] [cursor=pointer]
+          - heading "How is OrangeHRM priced?" [level=2] [ref=e515]:
+            - button "How is OrangeHRM priced?" [ref=e516] [cursor=pointer]
+          - heading "What systems does OrangeHRM integrate with?" [level=2] [ref=e518]:
+            - button "What systems does OrangeHRM integrate with?" [ref=e519] [cursor=pointer]
+          - heading "Can I upgrade from the free version to Advanced?" [level=2] [ref=e521]:
+            - button "Can I upgrade from the free version to Advanced?" [ref=e522] [cursor=pointer]
+          - heading "How do I get started with OrangeHRM?" [level=2] [ref=e524]:
+            - button "How do I get started with OrangeHRM?" [ref=e525] [cursor=pointer]
+          - heading "How long does it take to implement OrangeHRM?" [level=2] [ref=e527]:
+            - button "How long does it take to implement OrangeHRM?" [ref=e528] [cursor=pointer]
+          - heading "How does OrangeHRM protect my employee data?" [level=2] [ref=e530]:
+            - button "How does OrangeHRM protect my employee data?" [ref=e531] [cursor=pointer]
+          - heading "Is OrangeHRM GDPR compliant?" [level=2] [ref=e533]:
+            - button "Is OrangeHRM GDPR compliant?" [ref=e534] [cursor=pointer]
+          - heading "Does OrangeHRM have a mobile app?" [level=2] [ref=e536]:
+            - button "Does OrangeHRM have a mobile app?" [ref=e537] [cursor=pointer]
+          - heading "Does OrangeHRM support AI features?" [level=2] [ref=e539]:
+            - button "Does OrangeHRM support AI features?" [ref=e540] [cursor=pointer]
+          - heading "Is OrangeHRM suitable for small businesses?" [level=2] [ref=e542]:
+            - button "Is OrangeHRM suitable for small businesses?" [ref=e543] [cursor=pointer]
+          - heading "Can OrangeHRM be customized for my industry?" [level=2] [ref=e545]:
+            - button "Can OrangeHRM be customized for my industry?" [ref=e546] [cursor=pointer]
+          - heading "Does OrangeHRM support multi-location or global teams?" [level=2] [ref=e548]:
+            - button "Does OrangeHRM support multi-location or global teams?" [ref=e549] [cursor=pointer]
+          - heading "What kind of customer support does OrangeHRM provide?" [level=2] [ref=e551]:
+            - button "What kind of customer support does OrangeHRM provide?" [ref=e552] [cursor=pointer]
+          - heading "How do I contact OrangeHRM support for technical or general inquiries?" [level=2] [ref=e554]:
+            - button "How do I contact OrangeHRM support for technical or general inquiries?" [ref=e555] [cursor=pointer]
+      - generic [ref=e557]:
+        - generic [ref=e558]:
+          - img "Team Member" [ref=e559]
+          - img "Team Member" [ref=e560]
+          - img "Team Member" [ref=e561]
+        - heading "Still have questions?" [level=4] [ref=e562]:
+          - strong [ref=e563]: Still have questions?
+        - paragraph [ref=e564]: Can’t find the answer you’re looking for? Talk to one of our product experts today!
+        - button "Contact Sales" [ref=e565] [cursor=pointer]:
+          - link "Contact Sales" [ref=e566]:
+            - /url: /contact-sales
+  - contentinfo [ref=e567]:
+    - generic [ref=e571]:
+      - generic [ref=e574]:
+        - link "OrangeHRM Logo" [ref=e576] [cursor=pointer]:
+          - /url: /
+          - img "OrangeHRM Logo"
+        - generic [ref=e578]:
+          - generic [ref=e580]:
+            - img "users-love-us"
+          - generic [ref=e582]:
+            - img "CoreHR_HighPerformer_HighPerformer"
+          - generic [ref=e584]:
+            - img "sourceforge-user-reviews"
+          - generic [ref=e586]:
+            - img "CoreHR_HighPerformer_HighPerformer"
+          - generic [ref=e588]:
+            - img "CoreHR_HighPerformer_HighPerformer"
+          - generic [ref=e590]:
+            - img "users-love-us"
+      - generic [ref=e592]:
+        - generic [ref=e594]:
+          - heading "Company" [level=5] [ref=e595]
+          - list [ref=e596]:
+            - listitem [ref=e597]:
+              - link "About Us" [ref=e598] [cursor=pointer]:
+                - /url: https://orangehrm.com/company/about-us
+            - listitem [ref=e599]:
+              - link "Become a Partner" [ref=e600] [cursor=pointer]:
+                - /url: https://orangehrm.com/why-orangehrm/partners/partner-programs
+            - listitem [ref=e601]:
+              - link "Contact Us" [ref=e602] [cursor=pointer]:
+                - /url: https://orangehrm.com/company/contact
+            - listitem [ref=e603]:
+              - link "Press Releases" [ref=e604] [cursor=pointer]:
+                - /url: https://orangehrm.com/company/press-releases
+            - listitem [ref=e605]:
+              - link "News Articles" [ref=e606] [cursor=pointer]:
+                - /url: https://orangehrm.com/company/news-articles
+            - listitem [ref=e607]:
+              - link "Careers" [ref=e608] [cursor=pointer]:
+                - /url: https://orangehrm.com/company/careers
+            - listitem [ref=e609]:
+              - link "Contact Sales" [ref=e610] [cursor=pointer]:
+                - /url: https://orangehrm.com/contact-sales
+            - listitem [ref=e611]:
+              - link "Our Offices" [ref=e612] [cursor=pointer]:
+                - /url: https://orangehrm.com/company/about-us
+            - listitem [ref=e613]:
+              - link "Help Portal" [ref=e614] [cursor=pointer]:
+                - /url: https://help.orangehrm.com/hc/en-us
+            - listitem [ref=e615]:
+              - link "AI Help Desk" [ref=e616] [cursor=pointer]:
+                - /url: https://aihelpdesk.orangehrm.com/
+            - listitem [ref=e617]:
+              - link "CS & Support" [ref=e618] [cursor=pointer]:
+                - /url: https://help.orangehrm.com/hc/en-us/articles/54232712645913-Need-Help
+        - generic [ref=e620]:
+          - heading "Resources" [level=5] [ref=e621]
+          - list [ref=e622]:
+            - listitem [ref=e623]:
+              - link "E-Books" [ref=e624] [cursor=pointer]:
+                - /url: https://orangehrm.com/resources/e-books
+            - listitem [ref=e625]:
+              - link "Blog" [ref=e626] [cursor=pointer]:
+                - /url: https://orangehrm.com/resources/blog
+            - listitem [ref=e627]:
+              - link "HR Dictionary" [ref=e628] [cursor=pointer]:
+                - /url: https://orangehrm.com/resources/hr-dictionary
+            - listitem [ref=e629]:
+              - link "Advanced Overview" [ref=e630] [cursor=pointer]:
+                - /url: https://orangehrm.com/assets/Documents/pdf/Product-Overview.pdf
+            - listitem [ref=e631]:
+              - link "Data Security Promise" [ref=e632] [cursor=pointer]:
+                - /url: https://orangehrm.com/resources/other-resources/data-security-promise
+            - listitem [ref=e633]:
+              - link "OrangeHRM AI Principles" [ref=e634] [cursor=pointer]:
+                - /url: https://orangehrm.com/ai-principles
+            - listitem [ref=e635]:
+              - link "Product Updates" [ref=e636] [cursor=pointer]:
+                - /url: https://orangehrm.com/product-updates
+        - generic [ref=e638]:
+          - heading "Policies" [level=5] [ref=e639]
+          - list [ref=e640]:
+            - listitem [ref=e641]:
+              - link "Privacy Policy" [ref=e642] [cursor=pointer]:
+                - /url: https://orangehrm.com/policies/orangehrm-privacy-policy
+            - listitem [ref=e643]:
+              - link "Service Privacy Policy" [ref=e644] [cursor=pointer]:
+                - /url: https://orangehrm.com/policies/orangehrm-service-privacy-policy
+            - listitem [ref=e645]:
+              - link "General Public License" [ref=e646] [cursor=pointer]:
+                - /url: https://orangehrm.com/policies/gnu-general-public-license
+            - listitem [ref=e647]:
+              - link "Commercial License" [ref=e648] [cursor=pointer]:
+                - /url: https://orangehrm.com/assets/Uploads/OrangeHRM-Commercial-License.pdf
+            - listitem [ref=e649]:
+              - link "DPF Privacy Policy" [ref=e650] [cursor=pointer]:
+                - /url: https://orangehrm.com/assets/Documents/DPF-Privacy-Policy.pdf
+            - listitem [ref=e651]:
+              - link "Modern Day Slavery Statement" [ref=e652] [cursor=pointer]:
+                - /url: https://orangehrm.com/assets/Documents/policies/orangehrm-modern-slavery-statement.pdf?_gl=1*sh1nzz*_gcl_au*MjkzNzAzODc0LjE3NDY1MDk2NDIuMTM0NTAzNDkwMi4xNzUwMjI4ODE5LjE3NTAyMjg4NDM.
+            - listitem [ref=e653]:
+              - link "Cookie Declaration" [ref=e654] [cursor=pointer]:
+                - /url: https://orangehrm.com/policies/cookie-declaration
+    - generic [ref=e657]:
+      - paragraph [ref=e661]: OrangeHRM Inc. © 2026 All Rights Reserved.
+      - generic [ref=e662]:
+        - list [ref=e664]:
+          - listitem [ref=e665]:
+            - link "facebook" [ref=e666] [cursor=pointer]:
+              - /url: https://www.facebook.com/OrangeHRM
+              - generic [ref=e667]:
+                - img "facebook"
+          - listitem [ref=e668]:
+            - link "linkedin" [ref=e669] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/orangehrm/mycompany/
+              - generic [ref=e670]:
+                - img "linkedin"
+          - listitem [ref=e671]:
+            - link "youtube" [ref=e672] [cursor=pointer]:
+              - /url: https://x.com/orangehrm
+              - generic [ref=e673]:
+                - img "youtube"
+          - listitem [ref=e674]:
+            - link "linkedin" [ref=e675] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/orangehrm
+              - generic [ref=e676]:
+                - img "linkedin"
+          - listitem [ref=e677]:
+            - link "linkedin" [ref=e678] [cursor=pointer]:
+              - /url: https://www.instagram.com/orangehrm_inc
+              - generic [ref=e679]:
+                - img "linkedin"
+        - link "Site Map" [ref=e681] [cursor=pointer]:
+          - /url: /site-map
+```
